@@ -4,7 +4,7 @@ Just having a play with Python and writing some utility scripts.
 
 ## Scripts
 
-### Email Scraper
+### Email Scraper
 
 Scrapes email addresses from the specified URL.
 
