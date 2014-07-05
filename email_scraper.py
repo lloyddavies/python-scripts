@@ -12,7 +12,7 @@ def main():
     info = content.info()
     assert info.gettype() == 'text/html', 'Content not of type text/html'
     text = content.read()
-    emails = set(re.findall(EMAIL_REGEX, text, re.IGNORECASE))
+    emails = set(re.findall(email_regex, text, re.IGNORECASE))
     for email in emails:
         print email
 
